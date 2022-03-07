@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pastelería arcoiris</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./assets/logo.png" alt="Logo pasteleria arcoiris" width="150" height="150">
+            <H1>Bienvenido a pastelería Arcoiris</H1>
+        </header>
+  
+        <hr>
+
+        <h3>Sabores:</h3>
+        <ul>
+            <li>Durazno..........$300</li>
+            <li>Chocolate........$280</li>
+            <li>Tres leches......$350</li>
+            <li>Limón............$300</li>
+            <li>Zanahoria........$320</li>
+            <li>Naranja..........$300</li>
+            <li>Fresa............$400</li>
+        </ul>
+
+        <h3>Adornos:</h3>
+        <ul>
+            <li>Figuras geométricas.........$500</li>
+            <li>Texturizado 3D..............$200</li>
+            <li>Decoraciones florales.......$400</li>
+            <li>Drip Cake...................$150</li>
+        </ul>
+
+        <hr>
+
+        <h2>Realiza tu pedido</h2>
+        <p>Para realizar tu pedido, favor de llenar los siguientes datos:</p>
+
+        <form action="" id="pedido" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez" required><br><br>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="5536986535" required><br><br>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="algo@email.com" required><br><br>
+
+            <label for="descripcion">Descripción del pastel</label>
+            <textarea id="descripcion" name="descripcion" rows="10" cols="40"></textarea><br><br>
+            
+            <p>Sabores (se puede elegir más de uno):</p>
+            <input type="checkbox" id="durazno" name="durazno" value="Durazno">
+            <label for="durazno">Durazno</label><br>
+            <input type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+            <label for="chocolate">Chocolate</label><br>
+            <input type="checkbox" id="tres-leches" name="tres-leches" value="Tres leches">
+            <label for="tres-leches">Tres leches</label><br>
+            <input type="checkbox" id="limon" name="limon" value="Limon">
+            <label for="limon">Limón</label><br>
+            <input type="checkbox" id="zanahoria" name="zanahoria" value="Zanahoria">
+            <label for="zanahoria">Zanahoria</label><br>
+            <input type="checkbox" id="naranja" name="naranja" value="Naranja">
+            <label for="naranja">Naranja</label><br>
+
+            <p>Adornos (se puede elegir más de uno):</p>
+            <input type="checkbox" id="geometrico" name="geometrico" value="Geometrico">
+            <label for="geometrico">Figuras geométricas</label><br>
+            <input type="checkbox" id="texturizado" name="texturizado" value="Texturizado">
+            <label for="texturizado">Texturizado 3D</label><br>
+            <input type="checkbox" id="floral" name="floral" value="Floral">
+            <label for="floral">Decoraciones florales</label><br>
+            <input type="checkbox" id="drip-cake" name="drip-cake" value="Drip Cake">
+            <label for="drip-cake">Drip Cake</label><br><br>
+
+            <input type="reset">
+            <input type="submit"><br>
+
+            <hr>
+        </form>
+
+        <footer>
+            <p><b>Dirección:</b> Calle de los pastel #51, col. Postre, delegación Dulce, CDMX, C.P. 56000 <br>
+            <b>Teléfono:</b> 5563963696 <br>
+            <b>Horarios:</b> Lunes a Sábado de 07:00-20:00hrs, Domingos de 07:00-15:00 hrs.
+            </p>
+        </footer>
+    </body>
+</html>
